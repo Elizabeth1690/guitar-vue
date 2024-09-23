@@ -78,7 +78,6 @@
       </div>
     </div>
 
-
     <div v-if="showModal" class="modal">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
@@ -118,7 +117,7 @@ const handlePayment = () => {
 
 <style scoped>
 .bg-orange {
-  background-color: #ffa500; 
+  background-color: #ffa500;
 }
 .text-black {
   color: black;
@@ -140,8 +139,8 @@ const handlePayment = () => {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  width: 90%; 
-  max-width: 500px; 
+  width: 90%;
+  max-width: 500px;
   margin: 0 auto;
 }
 .close {
